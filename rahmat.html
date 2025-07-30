@@ -10,7 +10,7 @@
       padding: 0;
       overflow: hidden;  
       background: #000;
-      color: #0f0;
+      color: rgb(255, 255, 255);
       font-family: 'Courier New', Courier, monospace;
     }
     canvas {
@@ -39,13 +39,6 @@
       color: #fff;
       text-shadow: 0 0 10px rgba(255,255,255,0.7);
     }
-
-    h2 {
-      font-size: 2rem;
-      margin-bottom: 2rem;
-      color: #f00;
-      text-shadow: 0 0 5px rgba(255,0,0,0.7);
-    }
     .media-container {
       display: flex;  
       flex-direction: column;   
@@ -69,10 +62,18 @@
     }
     .media-container footer {
       margin-top: 1rem;
-      color: #0f0;
+      color: rgb(255, 255, 255);
       font-size: 1rem;
-      text-shadow: 0 0 3px #0f0;
+      text-shadow: 0 0 3px rgb(255, 255, 255);
     }
+    .container {
+            max-width: 600px;
+            margin: auto;
+            background: #000000;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
 
     </style>
 </head>
@@ -80,6 +81,15 @@
     <canvas id="matrix"></canvas>
     <div class="content">
       <h1>hello friend</h1>
+
+     <div class="container">
+        <h2>Biodata Diri</h2>
+        <p><strong>Nama:</strong>Hanafi Andreanatha</p>
+        <p><strong>Kelas:</strong> 12</p>
+        <p><strong>Sekolah:</strong> SMK Telkom Sidoarjo</p>
+        <p><strong>Jurusan:</strong> Sistem Informasi Jaringan dan Aplikasi (SIJA)</p>
+        <p><strong>Cita-cita:</strong> Menjadi orang kaya</p>
+
   
 </body>
 </html>
